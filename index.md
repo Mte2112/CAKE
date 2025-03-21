@@ -1,3 +1,0 @@
-# CAKE - Climate Action Knowledge Exchange  
-More coming soon...  
-

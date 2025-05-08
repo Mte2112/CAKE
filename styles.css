@@ -108,7 +108,7 @@ section {
 /* Hero section */
 #hero {
     background-color: var(--bg-color);
-    background-image: url('satellite1.jpg');
+    background-image: url('satellite2.jpg');
     padding: 8rem 0;
     text-align: center;
 }

@@ -5,35 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Climate Action Knowledge Exchange - Events</title>
+    <title>Events | Climate Action Knowledge Exchange</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="cake_logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <div id="logo-container">
-            <img src="cake_logo.png" alt="Climate Action Knowledge Exchange Logo" id="logo">
+            <img src="cake_logo.png" alt="CAKE Logo" id="logo">
             <h1>Climate Action Knowledge Exchange</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="events">
-            <h2>Events</h2>
-            <p>More info coming soon...</p>
+        <section id="events-hero">
+            <div class="section-container">
+                <h2>Events</h2>
+                <p class="events-tagline">Launching Fall 2025</p>
+            </div>
+        </section>
+
+        <section id="events-calendar">
+            <div class="section-container">
+                <h2>What to Expect</h2>
+                <div class="event-types">
+                    <div class="event-type">
+                        <div class="event-icon">●</div>
+                        <h3>Speaker Series</h3>
+                        <p>Insights from leaders across climate disciplines</p>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-icon">●</div>
+                        <h3>Hackathons</h3>
+                        <p>Collaborative problem-solving for climate challenges</p>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-icon">●</div>
+                        <h3>Social Events</h3>
+                        <p>Networking opportunities for our community members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stay-tuned">
+            <div class="section-container">
+                <div class="coming-soon-container">
+                    <h2>Stay in the Loop</h2>
+                    <p>Our full calendar of events will be announced in the coming months</p>
+                    <p class="inclusive-note">Everyone's welcome. Join us for online and in-person events around the Boulder, CO area"</p>
+                    <a href="index.html#subscribe" class="cta-button">Subscribe for Updates</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="propose">
+            <div class="section-container">
+                <h2>Suggest an Event</h2>
+                <p>Have ideas for an event? Let's talk!</p>
+                <p>Contact admin@cakeclimate.org</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Climate Action Knowledge Exchange. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="cake_logo.png" alt="CAKE Logo">
+                <p>Climate Action Knowledge Exchange<br>cakeclimate.org</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Climate Action Knowledge Exchange. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 

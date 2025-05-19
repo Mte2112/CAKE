@@ -108,7 +108,9 @@ section {
 /* Hero section */
 #hero {
     background-color: var(--bg-color);
-    background-image: url('satellite2.jpg');
+    background-image: url('images/banner_8A9B5D.png');
+    background-position: 100% 50%;
+    background-size: 100%;
     padding: 8rem 0;
     text-align: center;
 }

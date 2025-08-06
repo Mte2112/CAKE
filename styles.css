@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary-color: #8ab43f;     /* Green color from logo */
+    --primary-color: #5EA498;     /* Green color from logo */
     --text-color: #333333;        /* Dark text for contrast */
     --light-text: #ffffff;        /* White text */
     --bg-color: #ffffff;          /* White background */
@@ -108,7 +108,7 @@ section {
 /* Hero section */
 #hero {
     background-color: var(--bg-color);
-    background-image: url('images/banner_8A9B5D.png');
+    background-image: url('images/banner_4F897F.png');
     background-position: 100% 50%;
     background-size: 100%;
     padding: 8rem 0;
@@ -149,7 +149,7 @@ section {
 }
 
 .cta-button:hover {
-    background-color: #779a35;
+    background-color: #5EA498;
 }
 
 /* Mission section */
@@ -268,7 +268,7 @@ h2 {
 }
 
 .submit-button:hover {
-    background-color: #779a35;
+    background-color: #5EA498;
 }
 
 /* About page styles */
@@ -370,7 +370,7 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
     max-width: 900px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 3rem;;
 }
 
 .event-type {

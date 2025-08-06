@@ -95,12 +95,29 @@
                 <h2>Stay Connected</h2>
                 <p>Subscribe to our mailing list for updates on upcoming events and opportunities</p>
                 <p>Join our Slack: <a href="https://join.slack.com/t/cake-smf4309/shared_invite/zt-34zqaj49z-46s5_02~83zR0oWPNoCs5g" target="_blank">Click here to join</a></p>
-                <form id="subscribe-form">
+                <button onclick="document.getElementById('signup-iframe').style.display = 'block';" class="cta-button">
+                    Subscribe
+                    </button>
+
+                    <div id="signup-iframe" style="display: none; margin-top: 1.5rem;">
+                    <iframe 
+                        src="https://gem.godaddy.com/signups/382ada61247242a69f48bc2c3bdab668/iframe" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        height="586" 
+                        style="max-width: 400px; width: 100%;">
+                    </iframe>
+                </div>
+
+
+                <!-- Interactive subscribe button below. Dropped in favor of godaddy iframe -->
+                <!--<form id="subscribe-form">
                     <div class="form-group">
                         <input type="email" id="email" placeholder="Your email address" required>
                         <button type="submit" class="submit-button">Subscribe</button>
                     </div>
-                </form>
+                </form> -->
+
             </div>
         </section>
     </main>

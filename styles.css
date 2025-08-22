@@ -374,13 +374,7 @@ h2 {
 }
 
 .event-type {
-    text-align: center;
-}
-
-.event-icon {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
+    text-align: left;
 }
 
 .event-type h3 {
@@ -393,6 +387,29 @@ h2 {
 .event-type p {
     color: #666;
 }
+
+.event-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.event-type {
+    background-color: var(--subtle-gray);
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.event-details {
+    margin: 0.3rem 0;
+    color: #666;
+}
+
+.event-details strong {
+    color: var(--text-color);
+}
+
 
 #stay-tuned {
     background-color: var(--subtle-gray);
